@@ -146,8 +146,11 @@ class OPTIM_SD:
             .merge(prod_df, on ='MONTH')
             .MERGE(invn_df, on ='MONTH')
         )
-        
 
+        print(f" \n{type} 판매량 & 생산량 & 재고량 \n")
+        print(sales_df)
+
+        return oper_df
 
 
 
